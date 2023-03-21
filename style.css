@@ -16,12 +16,12 @@ body {
 .video {
   display: grid;
   max-width: 720px;
-  height: 405px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 45px 7px rgb(0 0 0 / 55%);
 }
 .video video {
+  height: 100%;
   max-width: 100%;
 }
 .video video::-webkit-media-controls {
